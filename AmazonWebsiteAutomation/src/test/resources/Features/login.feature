@@ -12,8 +12,8 @@ Feature: Kullanıcı Login
 
     Examples: 
       | kullanıcıAdı          | şifre   | kullanıcıHesapAdı |
-      | sseymakkose@gmail.com | qBWk!iq | Şeyma             |
-      | +905377743585         | qBWk!iq | Şeyma             |
+      | sseymakkose@gmail.com | qreyrre | Şeyma             |
+      | +905000000000         | qreyrre | Şeyma             |
 
   Scenario: Kayıtlı olmayan e-posta adresi ile Login
     Given kullanıcı Amazon giriş sayfasındadır
@@ -98,14 +98,14 @@ Feature: Kullanıcı Login
     Examples: 
       | kullanıcıAdı          | yeniKullanıcıAdı      |
       | sseymakkose@gmail.com | se@gmail.com          |
-      | +905377743585         | sseymakkose@gmail.com |
+      | +905000000000         | sseymakkose@gmail.com |
 
 #  Scenario: Oturumum açık kalsın
 #    Given kullanıcı Amazon giriş sayfasındadır
 #    When ekranın sağ üstünde bulunan Giriş yap butonuna tıklar
 #    And geçerli bir e-posta veya telefon numarasını girer
 #    And Devam Et butonuna tıklar ve şifre girme sayfasına yönlendirilir
-#    And geçerli bir şifre "qBWk!iq" girer
+#    And geçerli bir şifre "qreyrre" girer
 #    And Oturumum açık kalsın checkboxını işaretler
 #    And Giriş yap butonuna tıklar
 #    And ana sayfanın sağ üstünde kullanıcı hesabının adı "Şeyma" gözükmelidir

@@ -35,12 +35,12 @@ public class SignupStepDefinitions {
 
 	@And("user enters a valid name-surname")
 	public void user_enters_a_valid_name_surname() {
-	    driver.findElement(By.id("ap_customer_name")).sendKeys("Hafize Köse");
+	    driver.findElement(By.id("ap_customer_name")).sendKeys("Hamit");
 	}
 
 	@And("user enters a valid email")
 	public void user_enters_a_valid_email() throws InterruptedException {
-	    driver.findElement(By.id("ap_email")).sendKeys("hafizekose1959@gmail.com");
+	    driver.findElement(By.id("ap_email")).sendKeys("hamit@gmail.com");
 	    Thread.sleep(500);
 	}
 

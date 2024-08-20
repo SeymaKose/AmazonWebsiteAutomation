@@ -61,7 +61,7 @@ public class LoginStepDefinitions {
 	
 	@And("kayıtlı olmayan bir e-posta adresi girer")
 	public void kayıtlı_olmayan_bir_e_posta_adresi_girer() {
-	    driver.findElement(By.id("ap_email")).sendKeys("hafizekose1959@gmail.com");
+	    driver.findElement(By.id("ap_email")).sendKeys("aksaray@gmail.com");
 	}
 
 	@And("Devam Et butonuna tıklar")
